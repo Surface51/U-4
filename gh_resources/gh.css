@@ -308,22 +308,17 @@ a {
 
 .new_web {
     width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.web_pic {
-    margin: 0 auto;
-    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
 }
 
 .new_p {
-    grid-column: 2/3;
     text-align: left;
     padding: 5rem;
     background-color: #135EAC;
     height: 237px;
     color: white;
+    width: 480px;
 }
 
 .new_p h2 {
@@ -405,8 +400,13 @@ a {
     border-bottom: 5px solid #1AAC4F;
     background-position: left;
     background-repeat: no-repeat;
+}
+
+.blog_link a {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: #135EAC;
 }
 
 .blog_link p {
