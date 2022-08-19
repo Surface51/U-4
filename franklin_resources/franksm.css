@@ -129,6 +129,11 @@
         margin-top: 30px;
         margin-left: 36px;
     }
+
+    .title img {
+        height: 9.625rem;
+        width: 26.25rem;
+    }
     .title span {
         color: #FCB42C;
         font-size: 26px;

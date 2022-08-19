@@ -124,9 +124,8 @@
         color: lightgray;
         font-weight: 900;
         height: 9.625rem;
-        line-height: .9;
         width: 26.25rem;
-        margin-top: 30px;
+        line-height: .9;
         margin-left: 36px;
     }
     .title span {
