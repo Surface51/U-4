@@ -10,12 +10,14 @@ a {
     text-decoration: none;
 }
 
+@media (min-width:800px){
+
 .front_page {
     position: relative;
     display: grid;
     width: 100%;
     min-width: 780px;
-    grid-template-columns: 3.9% 11.3% 14.4% 70.4%;
+    grid-template-columns: 50px 146px 186px 70.4%;
     margin: 0 auto;
     border: none;
     gap: 0;
@@ -87,7 +89,7 @@ a {
 }
 
 .title {
-    margin-left: 40%;
+    margin-left: 32rem;
     font-size: 3rem;
     position: absolute;
     margin-top: 15.875rem;
@@ -106,7 +108,7 @@ a {
 .text_bar {
     position: absolute;
     background-color: #02AEEF;
-    margin-left: 45%;
+    margin-left: 36rem;
     top: 29.75rem;
     width: 0.75rem;
     height: 11rem;
@@ -116,7 +118,7 @@ a {
     top: 28.25rem;
     position: absolute;
     line-height: 2;
-    margin-left: 50%;
+    margin-left: 39rem;
     width: 23.2rem;
 }
 
@@ -174,6 +176,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row-reverse;
     gap: 3rem;
     margin-top: -2rem;
 }
@@ -439,6 +442,9 @@ a {
     margin-right: auto;
     text-align: center;
     margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom_nav{
@@ -503,4 +509,5 @@ a {
 .franknav {
     background-color: #02AEEF;
     background-image: url(./imgs/Group\ 574.png);
+}
 }

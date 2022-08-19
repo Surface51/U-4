@@ -6,6 +6,9 @@ body {
     margin:auto;
 }
 
+@media (min-width: 800px) {
+    
+
 a {
     text-decoration: none;
 }
@@ -15,7 +18,7 @@ a {
     display: grid;
     width: 100%;
     min-width: 780px;
-    grid-template-columns: 3.9% 11.3% 14.4% 70.4%;
+    grid-template-columns: 50px 146px 186px 70.4%;
     margin: 0 auto;
     border: none;
     gap: 0;
@@ -24,6 +27,8 @@ a {
 
 .kid_image {
     grid-column: 1/4;
+    width: 381px;
+    height: auto;
 }
 
 .logo{
@@ -277,7 +282,8 @@ a {
 }
 
 .SC_p {
-        text-align: center;
+    text-align: center;
+    width: 800px;
 }
 
 .new_web {
@@ -477,6 +483,9 @@ a {
     margin-right: auto;
     text-align: center;
     margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -544,3 +553,6 @@ a {
     background-color: #02AEEF;
     background-image: url(./images_1/Group\ 574.png);
 }
+}
+
+
