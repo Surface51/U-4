@@ -1,0 +1,13 @@
+// EXTERNAL IMPORTS
+@import '../../slick/slick.css';
+@import '../../slick/slick-theme.css';
+
+// UTILITIES FIRST!
+@import 'utilities/basic.scss';
+@import 'utilities/variables.scss';
+
+// THEN COMPONENTS 
+@import 'components/index.scss';
+@import 'components/stratton.scss';
+@import 'components/gh.scss';
+@import 'components/franklin.scss';

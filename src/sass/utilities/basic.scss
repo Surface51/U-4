@@ -1,0 +1,79 @@
+html {
+    font-size  : 16px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    margin       : auto;
+    // overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Slick slider stylings
+
+.slider .slide {
+    transition: transform .3s ease-in-out;
+}
+
+.slick-track {
+    // width: fit-content !important;
+}
+
+.slider .slide img {
+    width          : 100%;
+    max-width      : 15em;
+    height         : auto;
+    aspect-ratio   : 1;
+    object-fit     : cover;
+    object-position: 100% 0%;
+    margin         : 0 auto;
+}
+
+.slider .slick-center {
+    /* height: 250px; */
+    z-index  : 9999;
+    transform: scale(1.15) translateY(-5px)
+}
+
+.slick-list {
+    padding    : 45px 60px !important;
+    margin-left: 30px !important;
+}
+
+/* THIS IS HOW TO ADD 'GLASS' EFFECT TO IMAGES */
+
+.glass-effect {
+    position: relative;
+}
+
+.glass-effect::after {
+    content         : '';
+    position        : absolute;
+    inset           : 0;
+    background-color: rgb(19, 94, 172, 1);
+    mix-blend-mode  : color;
+    z-index         : 1;
+}
+
+
+.glass-effect::before {
+    content         : '';
+    position        : absolute;
+    inset           : 0;
+    background-color: rgb(19, 94, 172, .9);
+    mix-blend-mode  : multiply;
+    z-index         : 1;
+}
+
+.glass-effect>* {
+    z-index: 2;
+}
+
+.navbox,
+.nav_box {
+    transition: all .3s ease-in-out !important;
+}

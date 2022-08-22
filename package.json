@@ -1,0 +1,46 @@
+{
+  "name": "u-4",
+  "version": "1.0.0",
+  "description": "U-4 website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sando97/U-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sando97/U-4/issues"
+  },
+  "homepage": "https://github.com/Sando97/U-4#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.45.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "cssnano": "^5.1.12",
+    "gsap": "^3.10.4",
+    "gulp-cli": "^2.3.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "postcss-minify": "^1.1.0",
+    "rellax": "^1.12.1"
+  }
+}
