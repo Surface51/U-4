@@ -514,7 +514,7 @@
         .front-page {
             margin            : 0 auto;
             display           : grid;
-            grid-template-rows: 600px 600px;
+            grid-template-rows: auto auto;
             grid-column       : 100%;
             width             : auto;
             height            : auto;
@@ -526,13 +526,21 @@
             left: 0%
         }
 
-        img.kid_img {
-            width : 277px;
-            height: auto;
+        .kid_img {
+            width    : 60%;
+            height   : auto;
+            min-width: 200px;
+            max-width: 300px;
+            min-height: 420px;
         }
 
         .logo {
             position: absolute;
+        }
+
+        .logo img {
+            width : 60%;
+            height: auto;
         }
 
         a {
@@ -542,30 +550,32 @@
         .nav {
             display       : flex;
             flex-direction: column;
-            gap           : 50px;
             align-items   : flex-end;
             position      : absolute;
+            justify-content: space-around;
             right         : 0;
-            margin-top    : 30px;
+            height        : 420px;
         }
 
         .nav_box {
-            width              : 82px;
-            height             : 82px;
+            border-right       : 10px solid;
+            width              : 0;
+            height             : 80px;
             background-position: center;
             background-repeat  : no-repeat;
-            margin-right       : -73px;
+            //margin-right       : -73px;
             display            : flex;
             justify-content    : center;
+            transition  : ease-in-out .3s;
         }
 
         .nav_box:hover {
-            margin-right: 0;
-            transition  : ease-in-out .3s;
+            background-position: 0;
         }
 
 
         .nav_box1 {
+            border-color         : #135EAC;
             background-color: #135EAC;
             background-image: url(/U-4/images/Component\ 2\ –\ 1.png);
         }
@@ -575,17 +585,19 @@
             text-align   : center;
             color        : #135EAC;
             font-weight  : 900;
-            padding-right: 5px;
+            margin-right : 100px;
+            margin-top   : 27px;
+            width        : 80px;
         }
 
         .nav_box2 {
             background-color: #FCB42C;
-            background-image: url(/U-4/images/Group\ 548.png);
+            background-image: url(/images/Group\ 548.png);
         }
 
         .nav_box3 {
             background-color: #1AAC4F;
-            background-image: url(/U-4/images/Group\ 570.png);
+            background-image: url(/images/Group\ 570.png);
         }
 
         .nav_box3 p {
@@ -596,75 +608,51 @@
         .nav_box4 {
             background-image: url(/U-4/images/Group\ 574.png);
             background-color: #02AEEF;
+            border-color    : #02AEEF;
+
+        }
+        #curnav {
+            width: 82px;
         }
 
+        #curnav p {
+            opacity: 0;
+        }
+
+        
         .nav_box1 p {
-            margin-top: -10px;
-
+            margin-top: 15px !important;
         }
-
-        .nav_box p {
-            margin-right: 200px;
-            margin-top  : 27px;
-        }
-
 
         .title {
-            grid-row: 2/3;
-            margin  : auto;
-        }
-
-        .text_bar {
-            grid-row: 2/3;
-            margin  : auto;
-        }
-
-        .title_p {
-            grid-row: 2/3;
-            margin  : auto;
-        }
-
-
-        .title {
-            font-size  : 3rem;
-            position   : absolute;
-            color      : lightgray;
-            font-weight: 900;
-            height     : 9.625rem;
-            width      : 26.25rem;
-            line-height: .9;
-            margin-left: 36px;
-        }
-
-        .title span {
-            color    : #FCB42C;
-            font-size: 26px;
-        }
-
-        #big {
-            font-size: 3rem;
-        }
-
-        .text_bar {
+            grid-row        : 2/3;
             position        : absolute;
-            background-color: #FCB42C;
-            width           : 0.75rem;
-            height          : 240px;
+            margin-top      : 30px;
             margin-left     : 36px;
-            margin-top      : 245px;
+            width           : 240px;
+            height          : 154px;
+            background-image: url(../../../images/Stratton-OnWhite.png);
+            background-size : 240px 140px;
+            background-repeat: no-repeat;
         }
 
+        .title p {
+            opacity: 0;
+        }
 
         .title_p {
+            grid-row   : 2/3;
+            border-left: 12px solid #FCB42C;
             line-height: 2;
             margin-top : 220px;
             text-align : left;
-            margin-left: 80px;
-            width      : 350px;
+            margin-left: 36px;
+            padding-left: 10px;
+            width      : 75%;
         }
 
         .video img {
-            width     : 100%;
+            width     : 80%;
             height    : auto;
             margin-top: 50px;
         }
