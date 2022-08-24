@@ -1,5 +1,6 @@
 .stratton-page {
 
+
     @media (min-width: 800px) {
 
         .front-page {
@@ -527,10 +528,10 @@
         }
 
         .kid_img {
-            width    : 60%;
-            height   : auto;
-            min-width: 200px;
-            max-width: 300px;
+            width     : 60%;
+            height    : auto;
+            min-width : 200px;
+            max-width : 300px;
             min-height: 420px;
         }
 
@@ -548,25 +549,25 @@
         }
 
         .nav {
-            display       : flex;
-            flex-direction: column;
-            align-items   : flex-end;
-            position      : absolute;
+            display        : flex;
+            flex-direction : column;
+            align-items    : flex-end;
+            position       : absolute;
             justify-content: space-around;
-            right         : 0;
-            height        : 420px;
+            right          : 0;
+            height         : 420px;
         }
 
         .nav_box {
-            border-right       : 10px solid;
-            width              : 0;
-            height             : 80px;
-            background-position: center;
-            background-repeat  : no-repeat;
+            border-right         : 10px solid;
+            width                : 0;
+            height               : 80px;
+            background-position  : center;
+            background-repeat    : no-repeat;
             //margin-right       : -73px;
-            display            : flex;
-            justify-content    : center;
-            transition  : ease-in-out .3s;
+            display              : flex;
+            justify-content      : center;
+            transition           : ease-in-out .3s;
         }
 
         .nav_box:hover {
@@ -575,29 +576,29 @@
 
 
         .nav_box1 {
-            border-color         : #135EAC;
+            border-color    : #135EAC;
             background-color: #135EAC;
             background-image: url(/U-4/images/Component\ 2\ –\ 1.png);
         }
 
         .nav_box p {
-            font-size    : 14px;
-            text-align   : center;
-            color        : #135EAC;
-            font-weight  : 900;
-            margin-right : 100px;
-            margin-top   : 27px;
-            width        : 80px;
+            font-size   : 14px;
+            text-align  : center;
+            color       : #135EAC;
+            font-weight : 900;
+            margin-right: 100px;
+            margin-top  : 27px;
+            width       : 80px;
         }
 
         .nav_box2 {
             background-color: #FCB42C;
-            background-image: url(/images/Group\ 548.png);
+            background-image: url(/U-4/images/Group\ 548.png);
         }
 
         .nav_box3 {
             background-color: #1AAC4F;
-            background-image: url(/images/Group\ 570.png);
+            background-image: url(/U-4/images/Group\ 570.png);
         }
 
         .nav_box3 p {
@@ -611,6 +612,7 @@
             border-color    : #02AEEF;
 
         }
+
         #curnav {
             width: 82px;
         }
@@ -619,20 +621,20 @@
             opacity: 0;
         }
 
-        
+
         .nav_box1 p {
             margin-top: 15px !important;
         }
 
         .title {
-            grid-row        : 2/3;
-            position        : absolute;
-            margin-top      : 30px;
-            margin-left     : 36px;
-            width           : 240px;
-            height          : 154px;
-            background-image: url(../../../images/Stratton-OnWhite.png);
-            background-size : 240px 140px;
+            grid-row         : 2/3;
+            position         : absolute;
+            margin-top       : 30px;
+            margin-left      : 36px;
+            width            : 240px;
+            height           : 154px;
+            background-image : url(/U-4/images/Stratton-OnWhite.png);
+            background-size  : 240px 140px;
             background-repeat: no-repeat;
         }
 
@@ -641,14 +643,14 @@
         }
 
         .title_p {
-            grid-row   : 2/3;
-            border-left: 12px solid #FCB42C;
-            line-height: 2;
-            margin-top : 220px;
-            text-align : left;
-            margin-left: 36px;
+            grid-row    : 2/3;
+            border-left : 12px solid #FCB42C;
+            line-height : 2;
+            margin-top  : 220px;
+            text-align  : left;
+            margin-left : 36px;
             padding-left: 10px;
-            width      : 75%;
+            width       : 75%;
         }
 
         .video img {
