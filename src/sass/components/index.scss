@@ -47,7 +47,7 @@
 
         .nav_box1 {
             background-color: #135EAC;
-            background-image: url(/images/Group\ 611.png);
+            background-image: url(/U-4/images/Group\ 611.png);
         }
 
         .nav_box p {
@@ -61,12 +61,12 @@
 
         .nav_box2 {
             background-color: #FCB42C;
-            background-image: url(/images/Group\ 548.png);
+            background-image: url(/U-4/images/Group\ 548.png);
         }
 
         .nav_box3 {
             background-color: #1AAC4F;
-            background-image: url(/images/Group\ 570.png);
+            background-image: url(/U-4/images/Group\ 570.png);
         }
 
         .nav_box3 p {
@@ -75,7 +75,7 @@
         }
 
         .nav_box4 {
-            background-image: url(/images/Group\ 574.png);
+            background-image: url(/U-4/images/Group\ 574.png);
             background-color: #02AEEF;
         }
 
@@ -120,7 +120,7 @@
             width              : 100%;
             background-color   : #135EAC;
             height             : 693.18px;
-            background-image   : url(/images/IMG_0279.png);
+            background-image   : url(/U-4/images/IMG_0279.png);
             background-position: right;
             background-repeat  : no-repeat;
         }
@@ -227,9 +227,10 @@
         }
 
         .TWB_img {
-            background-image   : url(/images/IMG_0246.png);
+            background-image   : url(/U-4/images/IMG_0246.png);
             background-repeat  : no-repeat;
             background-position: center;
+            background-size    : cover;
             width              : 100%;
             height             : 31.25rem;
             display            : flex;
@@ -306,7 +307,7 @@
             line-height: 1.75;
         }
 
-        .new_p button {
+        .new_p a {
             color           : #135EAC;
             background-color: white;
             padding         : .35rem 1rem;
@@ -314,12 +315,12 @@
             border-radius   : 1rem;
             margin-top      : 2rem;
             font-weight     : 500;
+            transition      : ease-in-out .15s;
         }
 
-        .new_p button:hover {
+        .new_p a:hover {
             background-color: #135EAC;
             color           : white;
-            transition      : ease-in-out .15s;
         }
 
         #book_con {
@@ -402,9 +403,10 @@
         }
 
         .LB_img {
-            background-image   : url(/images/IMG_0256.png);
+            background-image   : url(/U-4/images/IMG_0256.png);
             background-repeat  : no-repeat;
             background-position: center;
+            background-size    : cover;
             width              : 100%;
             height             : 31.25rem;
             display            : flex;
@@ -526,13 +528,13 @@
 
         .u4nav {
             background-color: #135EAC;
-            background-image: url(/images/Group\ 611.png);
+            background-image: url(/U-4/images/Group\ 611.png);
         }
 
 
         .stratnav {
             background-color: #FCB42C;
-            background-image: url(/images/Group\ 548.png);
+            background-image: url(/U-4/images/Group\ 548.png);
         }
 
         .ghnav p {
@@ -542,12 +544,12 @@
 
         .ghnav {
             background-color: #1AAC4F;
-            background-image: url(/images/Group\ 570.png);
+            background-image: url(/U-4/images/Group\ 570.png);
         }
 
         .franknav {
             background-color: #02AEEF;
-            background-image: url(/images/Group\ 574.png);
+            background-image: url(/U-4/images/Group\ 574.png);
         }
     }
 
@@ -614,7 +616,7 @@
         }
 
         .nav_box1 {
-            background-image     : url(/images/Group\ 611.png);
+            background-image     : url(/U-4/images/Group\ 611.png);
             background-position-x: -100%;
             background-color     : #135EAC;
         }
@@ -629,12 +631,12 @@
 
         .nav_box2 {
             background-color: #FCB42C;
-            background-image: url(/images/Group\ 548.png);
+            background-image: url(/U-4/images/Group\ 548.png);
         }
 
         .nav_box3 {
             background-color: #1AAC4F;
-            background-image: url(/images/Group\ 570.png);
+            background-image: url(/U-4/images/Group\ 570.png);
         }
 
         .nav_box3 p {
@@ -643,7 +645,7 @@
         }
 
         .nav_box4 {
-            background-image: url(/images/Group\ 574.png);
+            background-image: url(/U-4/images/Group\ 574.png);
             background-color: #02AEEF;
         }
 
@@ -817,7 +819,7 @@
             background-image   : url(/videos/IMG_0246.png);
             background-repeat  : no-repeat;
             background-position: center;
-            background-size    : 100% auto;
+            background-size    : cover;
             width              : 100%;
             height             : 350px;
             display            : flex;
@@ -899,7 +901,7 @@
             line-height: 2;
         }
 
-        .new_p button {
+        .new_p a {
             color           : #135EAC;
             background-color: white;
             padding         : .35rem 1rem;
@@ -907,12 +909,12 @@
             border-radius   : 1rem;
             margin-top      : 2rem;
             font-weight     : 700;
+            transition      : ease-in-out .15s;
         }
 
-        .new_p button:hover {
+        .new_p a:hover {
             background-color: #135EAC;
             color           : white;
-            transition      : ease-in-out .15s;
         }
 
         #book_con {
@@ -1016,7 +1018,7 @@
 
         .LB_img {
             margin-top         : 50px;
-            background-image   : url(/images/IMG_0256.png);
+            background-image   : url(/U-4/images/IMG_0256.png);
             background-repeat  : no-repeat;
             background-position: center;
             background-size    : auto 420px;
@@ -1149,13 +1151,13 @@
 
         .u4nav {
             background-color: #135EAC;
-            background-image: url(/images/Group\ 611.png);
+            background-image: url(/U-4/images/Group\ 611.png);
         }
 
 
         .stratnav {
             background-color: #FCB42C;
-            background-image: url(/images/Group\ 548.png);
+            background-image: url(/U-4/images/Group\ 548.png);
         }
 
         .ghnav p {
@@ -1164,12 +1166,12 @@
 
         .ghnav {
             background-color: #1AAC4F;
-            background-image: url(/images/Group\ 570.png);
+            background-image: url(/U-4/images/Group\ 570.png);
         }
 
         .franknav {
             background-color: #02AEEF;
-            background-image: url(/images/Group\ 574.png);
+            background-image: url(/U-4/images/Group\ 574.png);
         }
     }
 }
