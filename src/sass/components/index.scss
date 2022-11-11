@@ -39,6 +39,10 @@
             background-position: center;
             background-repeat  : no-repeat;
             transition         : all ease-in .4s;
+
+            a {
+                width: auto;
+            }
         }
 
         .nav_box:hover {
@@ -607,6 +611,10 @@
             display               : flex;
             justify-content       : center;
             transition            : all ease-in-out .3s;
+            
+            a {
+                width: auto;
+            }
         }
 
         .nav_box:hover {
