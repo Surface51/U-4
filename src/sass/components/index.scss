@@ -590,52 +590,54 @@
         .logo {
             position: absolute;
         }
-
         .nav {
             display       : flex;
             flex-direction: column;
-            align-items   : flex-end;
-            justify-content: space-around;
+            gap           : 50px;
+            align-items   : flex-start;
             position      : absolute;
             right         : 0;
-            height        : 420px;
+            margin-top    : 30px;
+            // width: fit-content
+            // width: 100%;
+            width         : 10em;
         }
 
         .nav_box {
-            border-right          : 10px solid;
-            width                 : 0px;
-            height                : 80px;
-            background-position   : center;
-            background-repeat     : no-repeat;
+            height             : 82px;
+            background-position: center;
+            background-repeat  : no-repeat;
             // margin-right       : -73px;
-            display               : flex;
-            justify-content       : center;
-            transition            : all ease-in-out .3s;
-            
-            a {
-                width: auto;
-            }
+            display            : flex;
+            justify-content    : center;
+            align-items        : center;
+            width              : 100%;
+            position: relative;
+            right: -1em;
+        }
+
+        .nav_box.active {
+            right: 0;
+            transform: scale(120%);
         }
 
         .nav_box:hover {
-            background-position: 0;
+            margin-right: 0;
+            transition  : ease-in-out .3s;
         }
 
+
         .nav_box1 {
-            background-image     : url(/U-4/images/Group\ 611.png);
-            background-position-x: -100%;
-            background-color     : #135EAC;
-            border-color         : #135EAC;
+            background-color: #135EAC;
+            background-image: url(/U-4/images/Component\ 2\ –\ 1.png);
         }
 
         .nav_box p {
-            font-size    : 14px;
-            text-align   : center;
-            color        : #135EAC;
-            font-weight  : 900;
-            margin-right : 100px;
-            margin-top   : 27px;
-            width        : 80px;
+            font-size   : 14px;
+            text-align  : center;
+            color       : white;
+            font-weight : 900;
+            padding     : .25em;
         }
 
         .nav_box2 {
@@ -648,28 +650,19 @@
             background-image: url(/U-4/images/Group\ 570.png);
         }
 
-        .nav_box3 p {
-            margin-left: -1rem;
-            white-space: nowrap;
-        }
-
         .nav_box4 {
             background-image: url(/U-4/images/Group\ 574.png);
             background-color: #02AEEF;
-            border-color    : #02AEEF;
         }
 
-        .nav_box1 p {
-            margin-top: 15px !important;
-        }
 
-        #curnav {
-            width: 82px;
-        }
+        // #curnav {
+        //     width: 82px;
+        // }
 
-        #curnav p {
-            opacity: 0;
-        }
+        // #curnav p {
+        //     opacity: 0;
+        // }
 
         .title {
             grid-row   : 2/3;

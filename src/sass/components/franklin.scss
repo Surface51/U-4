@@ -548,20 +548,31 @@
             display       : flex;
             flex-direction: column;
             gap           : 50px;
-            align-items   : flex-end;
+            align-items   : flex-start;
             position      : absolute;
             right         : 0;
             margin-top    : 30px;
+            // width: fit-content
+            // width: 100%;
+            width         : 10em;
         }
 
         .nav_box {
-            width              : 82px;
             height             : 82px;
             background-position: center;
             background-repeat  : no-repeat;
-            margin-right       : -73px;
+            // margin-right       : -73px;
             display            : flex;
             justify-content    : center;
+            align-items        : center;
+            width              : 100%;
+            position: relative;
+            right: -1em;
+        }
+
+        .nav_box.active {
+            right: 0;
+            transform: scale(120%);
         }
 
         .nav_box:hover {
@@ -576,11 +587,11 @@
         }
 
         .nav_box p {
-            font-size    : 14px;
-            text-align   : center;
-            color        : #135EAC;
-            font-weight  : 900;
-            padding-right: 5px;
+            font-size   : 14px;
+            text-align  : center;
+            color       : white;
+            font-weight : 900;
+            padding     : .25em;
         }
 
         .nav_box2 {
@@ -593,25 +604,11 @@
             background-image: url(/U-4/images/Group\ 570.png);
         }
 
-        .nav_box3 p {
-            margin-left: -1rem;
-            white-space: nowrap;
-        }
-
         .nav_box4 {
-            background-image: url(./imgs/Group\ 574.png);
+            background-image: url(/U-4/images/Group\ 574.png);
             background-color: #02AEEF;
         }
 
-        .nav_box1 p {
-            margin-top: -10px;
-
-        }
-
-        .nav_box p {
-            margin-right: 200px;
-            margin-top  : 27px;
-        }
 
 
         .title {
@@ -671,7 +668,7 @@
             margin-top : 220px;
             text-align : left;
             margin-left: 80px;
-            width      : 350px;
+            max-width      : 350px;
         }
 
         .video img {
